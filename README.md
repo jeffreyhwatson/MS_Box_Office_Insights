@@ -1,67 +1,85 @@
-# Phase 1 Project Template - Minimum Viable Product (MVP)
+# Microsoft Box Office Insights
 
-![blueprint](images/blueprint.png)
+**Author:** Jeffrey Hanif Watson
+***
 
-This repository is like a blueprint, providing structure for your first End of Phase Project. We suggest you base your Phase 1 project off of this repository so you can focus less on formatting and organization, and more on the _analysis and communication skills_ that will support your progress through the course. This template is designed to make your project portfolio-ready in order to impress the future employers who will review it. 
+## Overview
 
-## Repository Contents
+This project provides a broad overview of the contemporary film industry as well as recommendations with regards to the probable initial capital requirements and film genres that will offer a high probability to maximize profit and return on investment. Descriptive analysis was performed on data obtained from the [The Numbers](https://www.the-numbers.com/), [Rotten Tomatoes](https://www.rottentomatoes.com/), and the [IMDb](https://www.imdb.com/) to arrive at the following conclusions: 
 
-Below is a list of the contents of this repository - instructions for using them are in the next section.
-
-- `README.md`: The README for this repo explaining its contents - you're reading it now.
-- `TEMPLATE_README.md`: An example of a project README that provides a brief overview of your whole project.
-- `dsc-phase1-project-template.ipynb`: A starter Jupyter Notebook with headings, code examples and guiding questions.
-- `create_sql_database.ipynb`: A notebook for creating an SQL database if you would prefer to use SQL for this project.
-- `DS_Project_Presentation_Template.pdf`: A starter slide deck presenting your project - here is an [editable version](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy).
-- `data` folder: A folder for the data you reference with your code.
-- `src` folder: A folder containing custom functions.
-- `images` folder: A folder for the images you reference in your files .
-- `.gitignore`: A hidden file that tells git to not track certain files and folders.
-
-## Instructions For Using This Repository
-
-### Fork This Repository
-
-1. Fork this repository to your personal account
-   - In GitHub, go to this repository and click the "Fork" button in the upper right.
-   
-2. Change the name of your fork of this repo to a _descriptive_ name of your choosing
-   - In GitHub, go to your fork of this repo -> "Settings" -> "Options" -> "Repository Name" -> "Rename"
-   - Make the name descriptive, since potential employers will read it. Ex: "Microsoft-Movie-Analysis" is better than "Project-1"
-
-3. Use `git clone` to clone your fork of this repo to your local computer
-
-### Work In Your Fork Of This Repository
-
-- Work in the repo clone that you created on your local machine
-- Start writing and coding in the Jupyter Notebook `dsc-phase1-project-template.ipynb`
-- Fill in the README template in `TEMPLATE_README.md`
-- Use `git add`, `git commit`, and `git push` often to update your repo in GitHub
-   - For a refresher on how to do this and why it's important, review Topic 2: Bash and Git
-
-### Use The Slide Template
-
-1. Go to [this link](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy) to make an editable copy of the slide deck in your own Google Drive account
-2. Go to "Slide," select "Change Theme," and pick a theme you like so your presentation doesn't look like everyone else's
-
-### Tidy Up Your Project
-
-- Change the file name of the Jupyter Notebook (`dsc-phase1-project-template.ipynb`) to something more descriptive
-- Save an appropriately-named PDF version of your slide deck to the repository
-- Rename the template readme you've been working in by running `git mv TEMPLATE_README.md README.md`
-- Delete unnecessary files from the repo using `git rm`
-   - The presentation PDF: `DS_Project_Presentation_Template.pdf`
-   - This README file: `README.md`
-   - Any unused data files in the `data` folder
-   - Any unused images in the `images` folder
-
-### Submit Your Project
-
-To submit your project, please follow the instructions in the [Project Submission & Review](https://learning.flatironschool.com/courses/1384/pages/project-submission-and-review-online?module_item_id=91641) page on Canvas.
+- The estimated cost for production and marketing in the first year: 3,881,250,000 USD.
+- The bulk of film revenue will come from the international market.
+- The Big Five genres of Action, SciFi, Drama, Family, and Comedy offer the best chances to maximize  profits.
+- The Hidden Value genres of Comedy, Horror, Mystery, and Drama have the highest probability for optimal return on investment.
 
 
-### Notes
+## Business Problem
 
-- The visualizations in the notebook use best practices for visualization that you should try to emulate. For example, they have clear axes, descriptive titles, and appropriate number formatting.
-- The `dsc-phase1-project-template.ipynb` is intended to be the _final version_ of your project. The first notebook you create will not look like this. You are encouraged to start with a very disorderly notebook and clean it as you go.
-- If you would like to use SQL for this project, please open the `create_sql_database.ipynb` notebook, and run the cells. The schema for the database is stored in the images/ folder.
+According to data from [The Numbers](https://www.the-numbers.com/), the US box office has increased  from 5.3 billion USD in 1995 to 11.3 billion USD in  2019. Identifying opportunities with the highest probability for profit and ROI in this steadily growing market is the strategic priority. Variables highlighted for analysis include production cost, gross profit, net profit, return on investment, and the ratio of domestic to foreign box office receipts.
+
+
+## Data
+
+Data aggregated from [Rotten Tomatoes](https://www.rottentomatoes.com/) provided a solid foundation to analyze overall box office trends, genre trends, and individual films. [IMDb](https://www.imdb.com/) data was better formatted to research actors, directors, writers, and producers. Numerical data from [The Numbers](https://www.the-numbers.com/) was joined with the datasets above to create a data frame of 4,776 films and a complimentary data frame of 32,088 individuals. 
+
+## Methods
+
+SQLite, Python, Pandas, and Seaborn were used for data preparation, analysis and visualization.
+
+## Results
+
+
+
+Here is an example of how to embed images from your sub-folder:
+
+### Distribution of the Top 100 Grossing Films
+![graph1](./images/1_100_grossing_films.png)
+
+### Mean Budget For a Top 100 Grossing Film
+![graph2](./images/2_average_budgets.png)
+
+### Statistics for the Top 100 Grossing Films
+![graph3](./images/3_100_gross_stats_slim.png)
+
+### Mean Share of Gross From Outside US
+![graph4](./images/5_percent_international.png)
+
+### The Big Five Genres
+![graph5](./images/6_100_genre_counts.png)
+
+### Hidden Value Genres
+![graph6](./images/8_roi_genres.png)
+
+### Hidden Value Genres
+![graph6](./images/18_comedy_stats.png)
+
+## Conclusions
+
+**Recap:**
+- Estimated initial cost: 3,881,250,000 USD.
+- Most revenue will come from the international market.
+- The Big Five genres increase the chance of maximum gross profits.
+- Hidden Value genres have a increase probability of a high ROI.
+**Next Steps:**
+- Analysis of creative talent was performed and is available upon request.
+- Incorporate the streaming market into the analysis.
+-Research purchase of a production company rather than starting from scratch.
+
+
+## For More Information
+
+Please review our full analysis in [our Jupyter Notebook](MS_Box_Office_Insights.ipynb) or our [presentation](./presentation.pdf).
+
+For any additional questions, please contact **name & email, name & email**
+
+## Repository Structure
+
+Describe the structure of your repository and its contents, for example:
+
+```
+├── README.md                           <- The top-level README for reviewers of this project
+├── MS_Box_Office_Insights.ipynb   <- Narrative documentation of analysis in Jupyter notebook
+├── presentation.pdf         <- PDF version of project presentation
+├── data                                <- Both sourced externally and generated from code
+└── images                              <- Both sourced externally and generated from code
+```
