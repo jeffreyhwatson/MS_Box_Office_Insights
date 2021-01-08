@@ -28,9 +28,11 @@ SQLite, Python, Pandas, and Seaborn were used for data preparation, analysis and
 
 ## Results
 
+### Estimating Inital Costs
 
+Based on data from [The Numbers](https://www.the-numbers.com/). The top six studios release, on average, fifteen films per year. The median production cost of top grossing film is 172,500,000 USD, and a rough estimate of the marketing budget for a film is half of the production budget. Running a calculation on these figures gives an intial cost estimate of **3,881,250,000 USD** for the first year's films.
 
-Here is an example of how to embed images from your sub-folder:
+## Market Trends
 
 ### Distribution of the Top 100 Grossing Films
 ![graph1](./images/1_100_grossing_films.png)
@@ -38,20 +40,16 @@ Here is an example of how to embed images from your sub-folder:
 ### Mean Budget For a Top 100 Grossing Film
 ![graph2](./images/2_average_budgets.png)
 
-### Statistics for the Top 100 Grossing Films
-![graph3](./images/3_100_gross_stats_slim.png)
-
 ### Mean Share of Gross From Outside US
 ![graph4](./images/5_percent_international.png)
 
-### The Big Five Genres
+## Genre Analysis
+
+### The Big Five Genres Offer The Highest Gross Profits
 ![graph5](./images/6_100_genre_counts.png)
 
-### Hidden Value Genres
+### Hidden Value Genres Offer The Best Return On Investment
 ![graph6](./images/8_roi_genres.png)
-
-### Hidden Value Genres
-![graph6](./images/18_comedy_stats.png)
 
 ## Conclusions
 
@@ -63,23 +61,22 @@ Here is an example of how to embed images from your sub-folder:
 **Next Steps:**
 - Analysis of creative talent was performed and is available upon request.
 - Incorporate the streaming market into the analysis.
--Research purchase of a production company rather than starting from scratch.
+- Research purchase of a production company rather than starting from scratch.
 
 
 ## For More Information
 
 Please review our full analysis in [our Jupyter Notebook](MS_Box_Office_Insights.ipynb) or our [presentation](./presentation.pdf).
 
-For any additional questions, please contact **name & email, name & email**
+For any additional questions, please contact **Jeffrey Hanif Watson** at **jeffrey.h.watson@protonmail.com**
 
 ## Repository Structure
 
-Describe the structure of your repository and its contents, for example:
 
 ```
-├── README.md                           <- The top-level README for reviewers of this project
-├── MS_Box_Office_Insights.ipynb   <- Narrative documentation of analysis in Jupyter notebook
-├── presentation.pdf         <- PDF version of project presentation
-├── data                                <- Both sourced externally and generated from code
-└── images                              <- Both sourced externally and generated from code
+├── README.md                          
+├── MS_Box_Office_Insights.ipynb   
+├── presentation.pdf         
+├── data                                
+└── images
 ```
