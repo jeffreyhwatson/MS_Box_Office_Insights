@@ -49,7 +49,7 @@ Based on data from [The Numbers](https://www.the-numbers.com/). The top six stud
 ![graph5](./images/6_100_genre_counts.png)
 
 ### Hidden Value Genres Offer The Best Return On Investment
-![graph6](./images/8_roi_genres.png)
+![graph6](./images/8_top_roi_genres.png)
 
 ## Conclusions
 
