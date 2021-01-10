@@ -72,11 +72,47 @@ For any additional questions, please contact **Jeffrey Hanif Watson** at **jeffr
 
 ## Repository Structure
 
-
 ```
-├── README.md                          
-├── MS_Box_Office_Insights.ipynb   
-├── presentation.pdf         
-├── data                                
-└── images
+├── MS_Box_Office_Insights.ipynb
+├── README.md
+├── create_sql_database.ipynb
+├── data
+│   ├── movies.db
+│   └── zippedData
+│       ├── bom.movie_gross.csv.gz
+│       ├── imdb.name.basics.csv.gz
+│       ├── imdb.title.akas.csv.gz
+│       ├── imdb.title.basics.csv.gz
+│       ├── imdb.title.crew.csv.gz
+│       ├── imdb.title.principals.csv.gz
+│       ├── imdb.title.ratings.csv.gz
+│       ├── rotten_tomatoes_critic_reviews.csv.gz
+│       ├── rotten_tomatoes_movies.csv.gz
+│       ├── tmdb.movies.csv.gz
+│       └── tn.movie_budgets.csv.gz
+├── images
+│   ├── 12_scifi_stats.png
+│   ├── 13_drama_stats.png
+│   ├── 14_family_stats.png
+│   ├── 17_horror_stats.png
+│   ├── 18_comedy_stats.png
+│   ├── 1_100_grossing_films.png
+│   ├── 23_mystery_stats.png
+│   ├── 2_average_budgets.png
+│   ├── 3_100_gross_stats_slim.png
+│   ├── 5_percent_international.png
+│   ├── 6_100_genre_counts.png
+│   ├── 8_top_roi_genres.png
+│   ├── blueprint.png
+│   ├── director_shot.jpeg
+│   ├── movies_db_schema.png
+│   ├── pandas-logo.png
+│   ├── python-logo.png
+│   ├── seaborn-logo.png
+│   ├── sqlite-logo.png
+│   └── viz1.png
+├── presentation.pdf
+└── src
+
+
 ```
