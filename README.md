@@ -7,7 +7,7 @@
 
 This project provides a broad overview of the contemporary film industry as well as recommendations with regards to the probable initial capital requirements and film genres that will offer a high probability to maximize profit and return on investment. Descriptive analysis was performed on data obtained from the [The Numbers](https://www.the-numbers.com/), [Rotten Tomatoes](https://www.rottentomatoes.com/), and the [IMDb](https://www.imdb.com/) to arrive at the following conclusions: 
 
-- The estimated cost for production and marketing in the first year: 3,881,250,000 USD.
+- The estimated cost for production and marketing in the first year: 1,588,954,479 USD.
 - The bulk of film revenue will come from the international market.
 - The Big Five genres of Action, SciFi, Drama, Family, and Comedy offer the best chances to maximize  profits.
 - The Hidden Value genres of Comedy, Horror, Mystery, and Drama have the highest probability for optimal return on investment.
@@ -30,9 +30,12 @@ SQLite, Python, Pandas, and Seaborn were used for data preparation, analysis and
 
 ### Estimating Inital Costs
 
-Based on data from [The Numbers](https://www.the-numbers.com/). The top six studios release, on average, fifteen films per year. The median production cost of top grossing film is 172,500,000 USD, and a rough estimate of the marketing budget for a film is half of the production budget. Running a calculation on these figures gives an intial cost estimate of **3,881,250,000 USD** for the first year's films.
+Based on data from [The Numbers](https://www.the-numbers.com/), the top six studios release, on average, fifteen films per year. The mean production cost of a top studio film released since 2009 is 70,620,199 USD, and a rough estimate of the marketing budget for a film is about half of the production budget. Running a calculation on these figures gives an intial cost estimate of **1,588,954,479** for the first year's films.
 
 ## Market Trends
+
+### Budget vs Gross (Films Released Since 2009)
+![graph7](./images/33_budget_vs_gross.png)
 
 ### Distribution of the Top 100 Grossing Films
 ![graph1](./images/1_100_grossing_films.png)
@@ -54,14 +57,14 @@ Based on data from [The Numbers](https://www.the-numbers.com/). The top six stud
 ## Conclusions
 
 **Recap:**
-- Estimated initial cost: 3,881,250,000 USD.
+- Estimated initial cost: 1,588,954,479 USD.
 - Most revenue will come from the international market.
 - The Big Five genres increase the chance of maximum gross profits.
 - Hidden Value genres have a increase probability of a high ROI.
 **Next Steps:**
 - Analysis of creative talent was performed and is available upon request.
 - Incorporate the streaming market into the analysis.
-- Research purchase of a production company rather than starting from scratch.
+- Research purchase of a production company.
 
 
 ## For More Information
@@ -91,14 +94,10 @@ For any additional questions, please contact **Jeffrey Hanif Watson** at **jeffr
 │       ├── tmdb.movies.csv.gz
 │       └── tn.movie_budgets.csv.gz
 ├── images
-│   ├── 12_scifi_stats.png
-│   ├── 13_drama_stats.png
-│   ├── 14_family_stats.png
-│   ├── 17_horror_stats.png
 │   ├── 18_comedy_stats.png
 │   ├── 1_100_grossing_films.png
-│   ├── 23_mystery_stats.png
 │   ├── 2_average_budgets.png
+│   ├── 33_budget_vs_gross.png
 │   ├── 3_100_gross_stats_slim.png
 │   ├── 5_percent_international.png
 │   ├── 6_100_genre_counts.png
@@ -113,6 +112,9 @@ For any additional questions, please contact **Jeffrey Hanif Watson** at **jeffr
 │   └── viz1.png
 ├── presentation.pdf
 └── src
+    ├── __pycache__
+    │   └── make_db.cpython-38.pyc
+    └── make_db.py
 
 
 ```
