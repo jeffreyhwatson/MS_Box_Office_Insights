@@ -37,13 +37,13 @@ Based on data from [The Numbers](https://www.the-numbers.com/), the top six stud
 ### Budget vs Gross (Films Released Since 2009)
 ![graph7](./images/33_budget_vs_gross.png)
 
+### Mean Budget For a Major Studio Film
+![graph2](./images/34_average_budgets.png)
+
 ### Distribution of the Top 100 Grossing Films
 ![graph1](./images/1_100_grossing_films.png)
 
-### Mean Budget For a Top 100 Grossing Film
-![graph2](./images/2_average_budgets.png)
-
-### Mean Share of Gross From Outside US
+### Mean Share of Gross of a Top 100 Film From Outside US
 ![graph4](./images/5_percent_international.png)
 
 ## Genre Analysis
