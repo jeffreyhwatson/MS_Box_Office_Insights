@@ -61,6 +61,7 @@ Based on data from [The Numbers](https://www.the-numbers.com/), the top six stud
 - Most revenue will come from the international market.
 - The Big Five genres increase the chance of maximum gross profits.
 - Hidden Value genres have a increase probability of a high ROI.
+
 **Next Steps:**
 - Analysis of creative talent was performed and is available upon request.
 - Incorporate the streaming market into the analysis.
