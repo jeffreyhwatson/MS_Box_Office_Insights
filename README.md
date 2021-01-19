@@ -99,6 +99,7 @@ For any additional questions, please contact **Jeffrey Hanif Watson** at **jeffr
 │   ├── 1_100_grossing_films.png
 │   ├── 2_average_budgets.png
 │   ├── 33_budget_vs_gross.png
+│   ├── 34_average_budgets.png
 │   ├── 3_100_gross_stats_slim.png
 │   ├── 5_percent_international.png
 │   ├── 6_100_genre_counts.png
@@ -116,6 +117,4 @@ For any additional questions, please contact **Jeffrey Hanif Watson** at **jeffr
     ├── __pycache__
     │   └── make_db.cpython-38.pyc
     └── make_db.py
-
-
 ```
